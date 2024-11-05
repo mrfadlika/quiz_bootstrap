@@ -1,0 +1,25 @@
+.nav-link, .navbar-brand {
+    transition: transform 0.2s ease-in-out !important;
+  }
+  
+  .nav-link:hover, .navbar-brand:hover {
+    transform: scale(1.1) !important;
+  }
+  
+  .nav-link:active, .navbar-brand:active {
+    transform: scale(0.95) !important;
+  }
+  
+  .custom-navbar-nav .nav-link.active {
+    color: #fff !important;
+    border-bottom: 2px solid #fff;
+  }
+  
+  .navbar-brand span {
+    color: #fff;
+  }
+  
+  .custom-navbar-cta img {
+    width: 24px;
+    height: 24px;
+  }
