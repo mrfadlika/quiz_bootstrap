@@ -9,7 +9,7 @@ const Home = () => {
           aria-label="Furni navigation bar"
         >
           <div className="container">
-            <a className="navbar-brand" href="index.html">
+            <a className="navbar-brand" href="/">
               Raffi<span>.</span>
             </a>
 
@@ -89,10 +89,10 @@ const Home = () => {
                     Excepturi vero totam repudiandae quidem laborum perferendis.
                   </p>
                   <p>
-                    <a href="#" className="btn btn-secondary me-2">
+                    <a href="#" className="btn btn-secondary me-2 text-white">
                       Shop Now
                     </a>
-                    <a href="#" className="btn btn-white-outline">
+                    <a href="#" className="btn btn-white-outline text-white">
                       Explore
                     </a>
                   </p>
@@ -123,13 +123,13 @@ const Home = () => {
                   Magnam quae et veritatis esse dolores mollitia fugiat fugit.
                 </p>
                 <p>
-                  <a href="shop.html" className="btn">
+                  <a href="/shop" className="btn btn-dark btn-rounded">
                     Explore
                   </a>
                 </p>
               </div>
               <div className="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-                <a className="product-item" href="cart.html">
+                <a className="product-item" href="/cart">
                   <img
                     src="images/product-1.png"
                     className="img-fluid product-thumbnail"
@@ -147,7 +147,7 @@ const Home = () => {
                 </a>
               </div>
               <div className="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-                <a className="product-item" href="cart.html">
+                <a className="product-item" href="/cart">
                   <img
                     src="images/product-2.png"
                     className="img-fluid product-thumbnail"
@@ -165,7 +165,7 @@ const Home = () => {
                 </a>
               </div>
               <div className="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-                <a className="product-item" href="cart.html">
+                <a className="product-item" href="/cart">
                   <img
                     src="images/product-3.png"
                     className="img-fluid product-thumbnail"
@@ -664,7 +664,7 @@ const Home = () => {
                 <div className="col-lg-4">
                   <div className="mb-4 footer-logo-wrap">
                     <a href="#" className="footer-logo">
-                      Furni<span>.</span>
+                      Raffi<span>.</span>
                     </a>
                   </div>
                   <p className="mb-4">
@@ -770,7 +770,7 @@ const Home = () => {
                   <div className="col-lg-6">
                     <p className="mb-2 text-center text-lg-start">
                       Copyright &copy;
-                      <script>document.write(new Date().getFullYear());</script>
+                      <script>2024</script>
                       . All Rights Reserved. &mdash; Designed with love by{" "}
                       <a href="https://portofolio.raffifadlika.com">
                         Raffi Fadlika
@@ -792,9 +792,6 @@ const Home = () => {
               </div>
             </div>
           </footer>
-          <script src="js/bootstrap.bundle.min.js"></script>
-          <script src="js/tiny-slider.js"></script>
-          <script src="js/custom.js"></script>
         </div>
       </div>
     </>
